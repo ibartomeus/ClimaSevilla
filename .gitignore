@@ -1,0 +1,7 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+/data/secrets.R
+.DS_Store
+AGENTS.md
