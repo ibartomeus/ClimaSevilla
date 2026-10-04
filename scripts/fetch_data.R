@@ -83,4 +83,4 @@ unique(out$prec)
 out[which(is.na(out$prec)),] #4 casos, lo dejo como NA
 out$prec <- as.numeric(out$prec)
 
-write.csv(out, "data/SevillaClimate.csv")
+write.csv(subset(out, select=-c(X, fecha2)), "data/SevillaClimate.csv")
